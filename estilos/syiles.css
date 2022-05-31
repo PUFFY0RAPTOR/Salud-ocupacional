@@ -1,19 +1,66 @@
-#banner{
-    background-color: tomato;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 2%;
+#contenido{
+    background-color: rgb(223, 223, 223);
+    /*height: 600px;*/
+    float: right;
+    width: 82%;
+    margin-right: 1%;
 }
 
-#contenido{
-    background-color: cornflowerblue;
-    width: 80%;
-    height: 500px;
-    margin: auto;
-    /*float: right;*/
+#banner{
+    background-color: beige;
+    width: 100%;
+    height: 150px;
+}
+
+#padre{
+    display: inline-block;
+	justify-content: center;
+    width: 100%;
 }
 
 #contenido h1{
     text-align: center;
 }
 
+#footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-top: 3%;
+}
+
+#NavBar{
+    text-align: center;   
+    margin-bottom: 3%;
+}
+
+#tema1{
+    
+    width: 85%;
+    height: 400px;
+    background-color: bisque;
+    margin: auto;
+}
+
+#tema1 p{
+    text-align: justify;
+}
+
+.texto{
+    padding: 50px;
+    width: 50%;
+}
+
+#ColumIzq{
+    text-align: center;
+    float: left;
+    background-color: rgb(21, 161, 96);
+    width: 15%;
+    height: 600px;
+    margin-left: 1%;
+}
+#contenido a{   
+    text-decoration: none;  
+    color: black;
+}
