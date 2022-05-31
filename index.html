@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="estilos/syiles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <title>Index</title>
 
 </head>
@@ -22,7 +25,12 @@
           <a class="nav-link" href="#">Pausas activas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Temas</a>
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Temas</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#tema1">Mejores ejercicios</a>
+            <a class="dropdown-item" href="#tema2">Recomendaciones</a>
+            <a class="dropdown-item" href="#tema3">Otras cosas</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">¿Quienes somos?</a>
@@ -35,28 +43,52 @@
   </div>
 
   <div id="Padre">
-      
+
     <div id="ColumIzq">
-      publicidad  
+      publicidad
     </div>
-        
+
     <div id="contenido">
 
       <h1>Temas del día</h1>
 
       <div id="tema1">
-          <a href="#"><div class="texto">
-            <h1>¿Qué ejercicio es mejor?</h1><br>
+        <a href="#">
+          <div class="texto">
+            <h1>Mejores ejercicios</h1><br>
             <p> Es esencial que te tomes un espacio durante el día
-              para salir de la rutina de tu trabajo y realices pausas activas lo cual favorece la prevención de
-               enfermedades físicas y mentales.  </p>   
+              para salir de la rutina de tu trabajo y realices pausas activas lo cual favorece la
+              prevención de
+              enfermedades físicas y mentales. </p>
           </div>
-          
+        </a>
+        <div id="divimagencita1">
+          <a><img src="images/ILUSTRACIONES-PAUSAS-ACTIVAS-2-01.jpg" height="240px"
+              width="70%"></a>
+        </div>
+      </div>
+      <div></div>
+
+      <div id="tema2">
+        <a href="#">
+          <div class="texto">
+            <h1>Recomendaciones</h1><br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla odio quia quae et
+              maiores saepe culpa velit quidem suscipit sapiente quisquam, natus labore reprehenderit
+              quibusdam facere, nobis aspernatur quis. </p>
+          </div>
         </a>
       </div>
 
-      <div id="tema2">
-        
+      <div id="tema3">
+        <a href="#">
+          <div class="texto">
+            <h1>Otras cosas</h1><br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla odio quia quae et
+              maiores saepe culpa velit quidem suscipit sapiente quisquam, natus labore reprehenderit
+              quibusdam facere, nobis aspernatur quis. </p>
+          </div>
+        </a>
       </div>
 
     </div>
@@ -64,7 +96,7 @@
   </div>
 
   <div id="footer">
-    
+
   </div>
 
 </body>

@@ -36,18 +36,32 @@
 }
 
 #tema1{
-    
-    width: 85%;
-    height: 400px;
+    width: 50%;
     background-color: bisque;
     margin: auto;
+    margin-top: 1%;
 }
 
-#tema1 p{
+#tema2{
+    width: 85%;
+    background-color: rgb(182, 119, 42);
+    margin: auto;
+    margin-top: 1%;
+}
+
+#tema3{
+    width: 85%;
+    background-color: rgb(18, 155, 148);
+    margin: auto;
+    margin-top: 1%; 
+}
+
+#tema1 p,#tema2 p, #tema3 p{
     text-align: justify;
 }
 
 .texto{
+    display: inline-block;
     padding: 50px;
     width: 50%;
 }
@@ -60,7 +74,24 @@
     height: 600px;
     margin-left: 1%;
 }
+
 #contenido a{   
     text-decoration: none;  
     color: black;
+}
+
+#divimagencita1{
+    float: right;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+
+#divimagencita1 img{
+    text-align: center;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 80px;
+
 }
