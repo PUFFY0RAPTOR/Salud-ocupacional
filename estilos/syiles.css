@@ -1,0 +1,19 @@
+#banner{
+    background-color: tomato;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+#contenido{
+    background-color: cornflowerblue;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    /*float: right;*/
+}
+
+#contenido h1{
+    text-align: center;
+}
+
