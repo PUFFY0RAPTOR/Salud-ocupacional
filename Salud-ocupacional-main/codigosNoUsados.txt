@@ -1,0 +1,229 @@
+<div class="flex-container">
+ 
+      <div id="tema1">
+        <a href="#">
+          <div class="texto">
+            <h1>Mejores ejercicios</h1><br>
+            <span> Es esencial que te tomes un espacio durante el día
+              para salir de la rutina de tu trabajo y realices pausas activas lo cual favorece la
+              prevención de
+              enfermedades físicas y mentales. </span>
+            <p>
+              <h4>Respuestas: 2</h4>
+              <h4>Participantes: 4</h4>
+              <br><h6>Publicado por:</h6><br><p> Alejandra</p>
+            </p>
+          </div>
+          <footer>
+            Nameless world
+          </footer>
+        </a>
+      </div>
+
+      <div id="tema2">
+        <a href="#">
+          <div class="texto">
+            <h1>Recomendaciones</h1><br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla odio quia quae et
+              maiores saepe culpa velit quidem suscipit sapiente quisquam, natus labore reprehenderit
+              quibusdam facere, nobis aspernatur quis. </p>
+              <p>
+                <h4>Respuestas:__15</h4>
+                <h4>Participantes:__40</h4>
+                <br><h6>Publicado por:</h6><br>
+                <p> Alejandra</p>
+              </p>
+          </div>
+        </a>
+      </div>
+
+      <div id="tema3">
+        <a href="#">
+          <div class="texto">
+            <h1>Otras cosas</h1><br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla odio quia quae et
+              maiores saepe culpa velit quidem suscipit sapiente quisquam, natus labore reprehenderit
+              quibusdam facere, nobis aspernatur quis. </p>
+              <p>
+                <h4>Respuestas:__2</h4>
+                <h4>Participantes:__4</h4>
+                <br><h6>Publicado por:</h6><br>
+                <p> Alejandra</p>
+              </p>
+          </div>
+        </a>
+      </div>
+      <div id="tema4">
+        <a href="#">
+          <div class="texto">
+            <h1>Comidas Saludables</h1><br>
+            <h3>Respuestas: 2</h3>
+            <h3>Participantes: 4</h3>
+            <h6>Publicado por:</h6><span>Alejandra</span>
+            
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <div class="flex-container">
+
+      <div id="tema1">
+        <a href="#">
+          <div class="texto">
+            <h1>Mejores ejercicios</h1><br>
+            <p> Es esencial que te tomes un espacio durante el día
+              para salir de la rutina de tu trabajo y realices pausas activas lo cual favorece la
+              prevención de
+              enfermedades físicas y mentales. </p>
+              <p>
+                <h4>Respuestas:__2</h4>
+                <h4>Participantes:__4</h4>
+                <br><h6>Publicado por:</h6><br>
+                <p> Alejandra</p>
+              </p>
+          </div>
+        </a>
+      </div>
+      <div></div>
+
+      <div id="tema2">
+        <a href="#">
+          <div class="texto">
+            <h1>Recomendaciones</h1><br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla odio quia quae et
+              maiores saepe culpa velit quidem suscipit sapiente quisquam, natus labore reprehenderit
+              quibusdam facere, nobis aspernatur quis. </p>
+              <p>
+                <h4>Respuestas:__2</h4>
+                <h4>Participantes:__4</h4>
+                <br><h6>Publicado por:</h6><br>
+                <p> Alejandra</p>
+              </p>
+          </div>
+        </a>
+      </div>
+
+      <div id="tema3">
+        <a href="#">
+          <div class="texto">
+            <h1>Otras cosas</h1><br>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla odio quia quae et
+              maiores saepe culpa velit quidem suscipit sapiente quisquam, natus labore reprehenderit
+              quibusdam facere, nobis aspernatur quis. </p>
+              <p>
+                <h4>Respuestas:__2</h4>
+                <h4>Participantes:__4</h4>
+                <br><h6>Publicado por:</h6><br>
+                <p> Alejandra</p>
+              </p>
+          </div>
+        </a>
+      </div>
+      <div id="tema4">
+        <a href="#">
+          <div class="texto">
+            <h1>Comidas Saludables</h1><br>
+            <h3>Respuestas: 2</h3>
+            <h3>Participantes: 4</h3>
+            <h6>Publicado por:</h6><span>Alejandra</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+<!-- CSS -->
+
+
+#tema1{
+    width: 25%;
+    order: 1;
+    background-color: bisque;
+    margin-left: 2%;
+}
+
+#tema1 p, #tema2 p, h4, h6{
+    visibility: hidden;
+    display: none;
+}
+
+#tema1:hover span, #tema2:hover span{
+    visibility: hidden;
+    display: none;
+}
+
+#tema1:hover p, #tema2:hover p, #tema1:hover h4, #tema2:hover h4, #tema1:hover h6, #tema2:hover h6{
+    visibility: visible;
+    display: contents;
+}
+
+
+#tema2{
+    width: 25%;
+    order: 2;
+    background-color: rgb(182, 119, 42);
+    margin-left: 2%;
+
+}
+
+#tema3{
+    width: 25%;
+    order: 3;
+    background-color: rgb(18, 155, 148);
+    margin-left: 2%;
+
+}
+
+#tema4 {
+    width: 25%;
+    order: 4;
+    background-color: rgb(18, 155, 148);
+    margin-left: 2%;
+}
+
+/*#tema1 p,#tema2 p, #tema3 p{
+    text-align: justify;
+}*/
+
+.texto{
+    padding: 50px;
+    text-align: justify;
+}
+
+.flex-container #tema1 a, #tema2 a, #tema3 a, #tema4 a{   
+    text-decoration: none;  
+    color: black;
+}
+
+#divimagencita1{
+    float: right;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#divimagencita1 img{
+    text-align: center;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 80px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+.flex-container div{
+    border-radius: 80px;
+}
+
+#tema1 footer{
+    text-align: center;
+    position: static;
+    border-radius: 80px;
+    /*padding: 15px;*/
+}

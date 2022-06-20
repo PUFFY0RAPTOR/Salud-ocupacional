@@ -10,126 +10,24 @@
     width: 100%;
 }
 
-/*#padre{
-    display: flex;
-	justify-content: center;
-    width: 100%;
-}*/
-
-#contenido h1{
-    text-align: center;
-}
-
-#footer{
-    background-color: cadetblue;
-    width: 100%;
-    height: 200px;
-    float: left;
-    margin-top: 3%;
-}
-
 #NavBar{
-    text-align: center;   
     margin-bottom: 3%;
 }
 
-#tema1{
-    width: 25%;
-    order: 1;
-    background-color: bisque;
-    margin-left: 2%;
-}
-
-#tema1 p, #tema2 p, h4, h6{
-    visibility: hidden;
-    display: none;
-}
-
-#tema1:hover span, #tema2:hover span{
-    visibility: hidden;
-    display: none;
-}
-
-#tema1:hover p, #tema2:hover p, #tema1:hover h4, #tema2:hover h4, #tema1:hover h6, #tema2:hover h6{
-    visibility: visible;
-    display: contents;
-}
-
-
-#tema2{
-    width: 25%;
-    order: 2;
-    background-color: rgb(182, 119, 42);
-    margin-left: 2%;
-
-}
-
-#tema3{
-    width: 25%;
-    order: 3;
-    background-color: rgb(18, 155, 148);
-    margin-left: 2%;
-
-}
-
-#tema4 {
-    width: 25%;
-    order: 4;
-    background-color: rgb(18, 155, 148);
-    margin-left: 2%;
-}
-
-/*#tema1 p,#tema2 p, #tema3 p{
-    text-align: justify;
-}*/
-
-.texto{
-    padding: 50px;
-    text-align: justify;
-}
-
-.flex-container #tema1 a, #tema2 a, #tema3 a, #tema4 a{   
-    text-decoration: none;  
-    color: black;
-}
-
-#divimagencita1{
-    float: right;
-    text-align: center;
-    background-color: antiquewhite;
-}
-
-#divimagencita1 img{
-    text-align: center;
-    padding: 20px;
-    margin-left: 10%;
-    margin-top: 20px;
-    margin-right: 80px;
-
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 12px;
-    margin-right: 2em;
-    margin-top: 2em;
-}
-.flex-container div{
-    border-radius: 80px;
-}
-
-#tema1 footer{
-    text-align: center;
-    position: static;
-    border-radius: 80px;
-    /*padding: 15px;*/
+.card h5 a{
+    text-decoration: none;
 }
 
 footer{
     background-color: rgb(125, 248, 248);
+    height: 200px;
 }
 
-#textico{
-    font-size: xx-large ;
+.Textico{
+    font-size: larger ;
+    text-align: justify;
+}
+
+#imagen{
+    text-align: center;
 }
