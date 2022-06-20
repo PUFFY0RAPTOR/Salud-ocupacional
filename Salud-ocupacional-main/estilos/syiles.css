@@ -19,7 +19,6 @@
 }
 
 footer{
-    background-color: rgb(125, 248, 248);
     height: 200px;
 }
 
@@ -30,4 +29,10 @@ footer{
 
 #imagen{
     text-align: center;
+}
+
+#footer2 {
+    display: flex;
+    align-items: flex-start;
+    color: white;
 }
