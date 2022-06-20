@@ -6,10 +6,8 @@
     margin-right: 1%;
 }
 
-#banner{
-    background-color: beige;
+#banner img{
     width: 100%;
-    height: 150px;
 }
 
 /*#padre{
@@ -130,4 +128,8 @@
 
 footer{
     background-color: rgb(125, 248, 248);
+}
+
+#textico{
+    font-size: xx-large ;
 }
