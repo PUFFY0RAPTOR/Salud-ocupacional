@@ -120,3 +120,14 @@
 .flex-container div{
     border-radius: 80px;
 }
+
+#tema1 footer{
+    text-align: center;
+    position: static;
+    border-radius: 80px;
+    /*padding: 15px;*/
+}
+
+footer{
+    background-color: rgb(125, 248, 248);
+}
